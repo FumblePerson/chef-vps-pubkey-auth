@@ -1,0 +1,12 @@
+{
+  "sources": {
+    "users": {
+      "locked_version": "1.7.0"
+    },
+    "chef-solo-search": {
+      "locked_version": "0.5.1",
+      "git": "https://github.com/edelight/chef-solo-search.git",
+      "ref": "848e98fcab3f87f030a631bf092a236e39cf1cc0"
+    }
+  }
+}

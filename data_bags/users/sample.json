@@ -1,0 +1,8 @@
+{
+  "id": "sample",
+  "ssh_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDYNl7+g2vvWdKi21jzR+r/fLI7igbIStK0eR9ebGUcSxcN5JqDijLNoUk3Gh1KTKj6tFqTPcjNNouX5MChyV2V50stHh+Uv2w5ZcLl/FySWeFL7D4pdwajpy/IgzrGjfNTZJ8nQ+4MCy2tEQ9JPGTvMMfbJTrGSNnhyUb+Z5GFzH+K9VgjLClaC0TeCBS9jOT1EAm5s81qlR3Ma+idQ1PRG0geIyw0SXA7y890gKJDaKKwmEpJxwKVua5xy9i0O0McriuKQvdZIB2y/btg5wkZM/xVlPyhSQo9ac09/QFZeULFBVKcuA7hz0awHEucGTnmoolEWv4rHwHDMaPI5o/d sample",
+  "groups": ["sample"],
+  "uid": 2300,
+  "comment": "sample user",
+  "shell": "¥/bin¥/bash"
+}
