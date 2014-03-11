@@ -33,9 +33,8 @@ simple_iptables_rule "system" do
   jump "ACCEPT"
 end
 
-# Allow HTTP, HTTPS
+# Allow HTTPS
 simple_iptables_rule "http" do
-  rule [ "--proto tcp --dport 80",
-         "--proto tcp --dport 443" ]
+  rule "--proto tcp --dport 443"
   jump "ACCEPT"
 end

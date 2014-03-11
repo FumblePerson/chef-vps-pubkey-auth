@@ -14,8 +14,16 @@
       "git": "https://github.com/dcrosta/cookbook-simple-iptables.git",
       "ref": "b09d6d9b481329f9d6fb61bbb9ae1c048151a9ec"
     },
+    "docker": {
+      "locked_version": "0.1.0",
+      "git": "https://github.com/FumblePerson/cookbook-docker.git",
+      "ref": "35052daf0bc7147d8dc8f2c0d1b2c7876c1cbbf9"
+    },
     "iptables": {
       "locked_version": "0.12.0"
+    },
+    "yum": {
+      "locked_version": "3.1.2"
     }
   }
 }

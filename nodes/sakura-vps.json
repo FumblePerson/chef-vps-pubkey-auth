@@ -3,11 +3,12 @@
     "recipe[myusers::marcy]",
     "recipe[sudo]",
     "recipe[openssh]",
-    "recipe[myiptables]"
+    "recipe[myiptables]",
+    "recipe[docker]"
   ],
   "authorization": {
     "sudo": {
-      "users": ["marcy"],   
+      "users": ["marcy", "jenkins"],   
       "passwordless": true
     }
   },
