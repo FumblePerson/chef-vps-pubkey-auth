@@ -1,0 +1,18 @@
+{
+  "run_list": [
+    "recipe[myusers::marcy]",
+    "recipe[sudo]"
+  ],
+  "authorization": {
+    "sudo": {
+      "users": ["marcy"],   
+      "passwordless": true
+    }
+  },
+  "openssh": {
+    "server": {
+      "permit_root_login":"no", 
+      "password_authentication":"no"
+    }
+  }
+}
