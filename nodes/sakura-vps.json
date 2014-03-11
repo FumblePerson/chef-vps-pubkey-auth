@@ -1,7 +1,8 @@
 {
   "run_list": [
     "recipe[myusers::marcy]",
-    "recipe[sudo]"
+    "recipe[sudo]",
+    "recipe[openssh]"
   ],
   "authorization": {
     "sudo": {
